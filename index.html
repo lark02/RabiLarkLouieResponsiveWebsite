@@ -1,0 +1,129 @@
+<!DOCTPYE html>
+
+<html>
+
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Pet Adoption</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,800;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="adoption.html">ADOPT A PET</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars"onclick="showMenu()"></i>
+		</nav>
+		
+	<div class="text-box">
+		<h1>Adopt your Pet now</h1>
+		<p> Pets are mans' bestfriend, find yours here.</p>
+		<a href=""class="visit">Visit Us</a>
+	</div>
+	
+	</section>
+	
+	
+	<section class="adopt">
+	<h1>Adopt Pets for Free</h1>
+	<p>You can adopt Pets for free with complete papers.</p>
+	
+	<div class="row">
+		<div class="adopt-dog">
+		<h3>Dog</h3>
+		<p>Dogs have been labeled as "man's best friend," offering companionship and loyalty to their human counterparts.</p>
+		</div>
+		<div class="adopt-cat">
+		<h3>Cat</h3>
+		<p>Cats are social creatures capable of relationships with people.</p>
+		</div>
+	</div>
+	</section>
+
+	<section class="comments">
+	<h1>What New Owner Says</h1>
+	<p>New owner gives their experiences with the pet they've adopt</p>
+	
+	<div class="row">
+		<div class="rating">
+			<img src="images/owner1.jpg">
+			<div>
+				<p> The pet that I've just adopt is very healthy now. Thankyou letting us to adopt your pet. Continue to help pets. </p>
+				<h3> Karen Wallis</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				
+			</div>
+		</div>
+		<div class="rating">
+			<img src="images/owner2.jpg">
+			<div>
+				<p> I name my pet Bonji and he is now acive and loving. Hope to adopt a new one soon. </p>
+				<h3> John Curt</h3>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+		</div>
+	</div>
+	</section>
+
+
+	<section class="contact">
+		<h1>Want to adopt a new pet?</h1>
+		<a href="contact.html" class="visit"> CONTACT US</a>
+	
+	</section>
+	
+	<section class="foot">
+		<h4>About Us</h4>
+		<p>We provide a safety of the pets on the streets and give them a new owner.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-github"></i>
+		</div>
+		<p>Made with <i class="fa fa-heart"></i> by Lark Louie Rabi</p>
+	</section>
+
+
+	
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right ="0";
+	}
+	
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+	
+	
+</script>
+
+</body>
+
+
+</html>
